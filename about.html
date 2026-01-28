@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - Lincoln Gardner</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #fff;
+        }
+
+        .navbar {
+            background: #fff;
+            border-bottom: 1px solid #e5e5e5;
+            padding: 1rem 2rem;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .navbar-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .navbar-brand {
+            font-weight: 700;
+            font-size: 1.25rem;
+            color: #333;
+            text-decoration: none;
+        }
+
+        .navbar-nav {
+            display: flex;
+            gap: 2rem;
+            list-style: none;
+        }
+
+        .navbar-nav a {
+            color: #666;
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.2s;
+        }
+
+        .navbar-nav a:hover,
+        .navbar-nav a.active {
+            color: #333;
+        }
+
+        .main-content {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 3rem 2rem;
+        }
+
+        .page-title {
+            font-size: 2rem;
+            font-weight: 700;
+            margin-bottom: 2rem;
+        }
+
+        .about-content {
+            font-size: 1.125rem;
+            color: #444;
+        }
+
+        .about-content p {
+            margin-bottom: 1.5rem;
+        }
+
+        .about-content h2 {
+            font-size: 1.5rem;
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        .about-content ul {
+            margin-left: 1.5rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .about-content li {
+            margin-bottom: 0.5rem;
+        }
+
+        @media (max-width: 600px) {
+            .navbar-container {
+                flex-direction: column;
+                gap: 1rem;
+            }
+
+            .page-title {
+                font-size: 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-container">
+            <a href="index.html" class="navbar-brand">Lincoln Gardner</a>
+            <ul class="navbar-nav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html" class="active">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="main-content">
+        <h1 class="page-title">About Me</h1>
+        <div class="about-content">
+            <p>
+                Hi, I'm Lincoln Gardner, a product management student passionate about building
+                user-centered digital products that solve real problems.
+            </p>
+
+            <h2>Background</h2>
+            <p>
+                I'm currently studying product management and developing skills in user research,
+                product strategy, and data-driven decision making.
+            </p>
+
+            <h2>Skills</h2>
+            <ul>
+                <li>Product Strategy & Roadmapping</li>
+                <li>User Research & Analysis</li>
+                <li>Wireframing & Prototyping</li>
+                <li>Agile Methodologies</li>
+                <li>Data Analysis</li>
+            </ul>
+
+            <h2>Get in Touch</h2>
+            <p>
+                I'm always interested in connecting with fellow product enthusiasts and exploring
+                new opportunities. Feel free to reach out via
+                <a href="https://linkedin.com/in/yourprofile">LinkedIn</a> or
+                <a href="https://github.com/Lincoln-Gardner-25">GitHub</a>.
+            </p>
+        </div>
+    </main>
+</body>
+</html>
